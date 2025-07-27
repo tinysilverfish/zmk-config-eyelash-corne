@@ -21,7 +21,7 @@
 
         gui {
             bindings = <&kp LGUI>;
-            key-positions = <44 45>;
+            key-positions = <43 44>;
         };
 
 	bsforleft {
