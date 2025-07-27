@@ -21,18 +21,18 @@
 
         gui {
             bindings = <&kp LGUI>;
-            key-positions = <37 38>;
+            key-positions = <44 45>;
         };
 
-		bsforleft {
-			bindings = <&kp BSPC>;
-			key-positions = <4 5>;
-		};
+	bsforleft {
+	    bindings = <&kp BSPC>;
+	    key-positions = <4 5>;
+	};
 
-		enterforleft {
-			bindings = <&kp ENTER>;
-			key-positions = <28 29>;
-		};
+	enterforleft {
+	    bindings = <&kp ENTER>;
+	    key-positions = <32 33>;
+	};
     };
 };
 
