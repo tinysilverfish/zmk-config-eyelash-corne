@@ -1,0 +1,5 @@
+include:
+  - board: eyelash_corne_left
+    shield: nice_view
+  - board: eyelash_corne_right
+    shield: nice_view
