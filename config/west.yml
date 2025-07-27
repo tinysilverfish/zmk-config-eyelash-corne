@@ -2,18 +2,13 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: eyelash
-      url-base: https://github.com/a741725193
-
   projects:
+    - name: eyelash_corne
+      url: https://github.com/a741725193/zmk-new_corne
+      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: eyelash_corne
-      remote: eyelash
-      revision: main
-      path: modules/eyelash_corne
-
   self:
     path: config
